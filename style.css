@@ -136,7 +136,7 @@ h2::before {
     padding: 4px 0 4px 20px;
     text-align: left;
     color: var(--muted);
-    font-size: .96rem;
+    font-size: 18px;
 }
 
 .intro-text p {
@@ -148,12 +148,13 @@ h2::before {
 .intro-text strong { color: var(--ink); }
 
 .capa-img {
-    width: 100%;
-    max-height: 520px;
+    max-width: 1000px;
+    height: auto;
     object-fit: cover;
     border-radius: 0;
     border: 1px solid var(--line);
     filter: saturate(.75) contrast(.98);
+    justify-self: center;
 }
 
 #glossario { background: var(--paper); }
@@ -250,17 +251,8 @@ h2::before {
     margin-bottom: 10px;
 }
 
-.placeholder-img {
-    width: 100%;
-    height: 200px;
-    background: var(--paper);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px dashed var(--muted);
-    border-radius: 0;
-    margin: 20px 0;
-    color: var(--muted);
+.exp-img {
+    max-height: 200px;
 }
 
 .video-container {
